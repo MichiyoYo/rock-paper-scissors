@@ -30,6 +30,13 @@ scissors = '''
 import random
 
 weapons = [rock, paper, scissors]
+"""
+winning scores are put in a matix where:
+-1 means it's a tie
+0 means that rock wins
+1 menas that paper wins
+2 means that scissors wins
+"""
 scores = [[-1,1,0], [1,-1,2], [0,2,-1]]
 quit = False
 
